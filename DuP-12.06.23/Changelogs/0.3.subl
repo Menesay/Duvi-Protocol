@@ -1,0 +1,20 @@
+
+
+### 0.3 ###
+
+    ## New ##
+
+    	> . command: list directory and print path.
+
+    	> .. command: switch to previous directory and print path.
+
+    	> ... <dirname> command: switch to <dirname> directory and print path.
+
+
+  	## Bug ##
+
+	    > User can't list C:\ directory.
+    	
+    Fixed:	
+	# Directory name control when switch to arbitrary directory.
+	

@@ -1,0 +1,11 @@
+
+### To-Do ###
+
+## 0.3 ##
+
+    [*] IP:PORT info in [DATA].
+    [*] Directory listening.
+
+    # BUG #
+    [ ] C:\ directory listening bug fix.
+    [*] Directory name control when switch to arbitrary directory.

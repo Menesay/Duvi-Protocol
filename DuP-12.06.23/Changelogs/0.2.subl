@@ -1,0 +1,21 @@
+
+
+### 0.2 ###
+
+	## Bugs Fixed ##
+
+	Bug:
+	# 0.1 de duvi-protocol-server.go ya yalnızca duvi-protocol-client.go
+	  clientı data gönderebiliyor.
+
+		> Wireshark testinde:
+			Server başka clientlardan (C ve Python) gelen datayı alamıyor.
+
+		> Paket yakalamak ve göndermek için bufio modulü kullanılıyor.
+			
+	Fix:
+	# Server core yeniden yazıldı.
+		
+		> Paketler 1024 bytelık arraylerle alınıp iletiliyor.
+
+		> Server C, Python ve Go clientlarının paketini alabiliyor.
